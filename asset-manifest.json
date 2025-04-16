@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PavanKumarPortfolio.com/static/css/main.7ca104b4.css",
-    "main.js": "/PavanKumarPortfolio.com/static/js/main.d37ccf4f.js",
+    "main.js": "/PavanKumarPortfolio.com/static/js/main.1655d2bf.js",
     "index.html": "/PavanKumarPortfolio.com/index.html",
     "static/media/blob-haikei.svg": "/PavanKumarPortfolio.com/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
     "main.7ca104b4.css.map": "/PavanKumarPortfolio.com/static/css/main.7ca104b4.css.map",
-    "main.d37ccf4f.js.map": "/PavanKumarPortfolio.com/static/js/main.d37ccf4f.js.map"
+    "main.1655d2bf.js.map": "/PavanKumarPortfolio.com/static/js/main.1655d2bf.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca104b4.css",
-    "static/js/main.d37ccf4f.js"
+    "static/js/main.1655d2bf.js"
   ]
 }
