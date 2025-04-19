@@ -24,7 +24,7 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-image">
-            <Image src="images/man-svgrepo-com.svg" alt="Profile" />
+            <Image src=  img: process.env.PUBLIC_URL + "images/man-svgrepo-com.svg" alt="Profile" />
           </div>
 
           <div className="about-text">
