@@ -4,19 +4,20 @@ import Image from "../components/Image"; // adjust the path if you're using a cu
 
 const About = () => {
   const technologies = [
-    { name: "Python", img: "images/python.png" },
-    { name: "MySQL", img: "images/mysql.png" },
-    { name: "SQL Server", img: "images/sqlserver.png" },
-    { name: "Git", img: "images/git.png" },
-    { name: "Excel", img: "images/excel.png" },
-    { name: "Power BI", img: "images/powerbi.png" },
-    { name: "Tableau", img: "images/tableau.png" },
-    { name: "NumPy", img: "images/numpy.png" },
-    { name: "Pandas", img: "images/pandas.png" },
-    { name: "Seaborn", img: "images/seaborn.png" },
-    { name: "Figma", img: "images/figma.png" },
-    { name: "VS Code", img: "images/vscode.png" },
-  ];
+    const technologies = [
+  { name: "Python", img: process.env.PUBLIC_URL + "/images/python.png" },
+  { name: "MySQL", img: process.env.PUBLIC_URL + "/images/mysql.png" },
+  { name: "SQL Server", img: process.env.PUBLIC_URL + "/images/sqlserver.png" },
+  { name: "Git", img: process.env.PUBLIC_URL + "/images/git.png" },
+  { name: "Excel", img: process.env.PUBLIC_URL + "/images/excel.png" },
+  { name: "Power BI", img: process.env.PUBLIC_URL + "/images/powerbi.png" },
+  { name: "Tableau", img: process.env.PUBLIC_URL + "/images/tableau.png" },
+  { name: "Pandas", img: process.env.PUBLIC_URL + "/images/pandas.png" },
+  { name: "NumPy", img: process.env.PUBLIC_URL + "/images/numpy.png" },
+  { name: "Seaborn", img: process.env.PUBLIC_URL + "/images/seaborn.png" },
+  { name: "Figma", img: process.env.PUBLIC_URL + "/images/figma.png" },
+  { name: "VS Code", img: process.env.PUBLIC_URL + "/images/vscode.png" }
+];
 
   return (
     <AboutWrapper id="about">
